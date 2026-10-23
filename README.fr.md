@@ -2,7 +2,7 @@
 
 # Prologin
 
-Mes solutions à des exercices de [Prologin](https://prologin.org/), le concours français d'informatique. Les énoncés sont en français et se trouvent sur le site de Prologin. Les solutions sont écrites en C, avec une en Python.
+Mes solutions à des exercices de [Prologin](https://prologin.org/), le concours français d'informatique. Les énoncés sont en français et se trouvent sur le site de Prologin. Les solutions sont écrites en C et en Python.
 
 ## Utilisation
 
