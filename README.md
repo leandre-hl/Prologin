@@ -2,7 +2,7 @@
 
 # Prologin
 
-My solutions to exercises from [Prologin](https://prologin.org/), the French computer science contest. The problem statements are in French and can be found on the Prologin website. Solutions are written in C, plus one in Python.
+My solutions to exercises from [Prologin](https://prologin.org/), the French computer science contest. The problem statements are in French and can be found on the Prologin website. Solutions are written in C and in Python.
 
 ## Usage
 
