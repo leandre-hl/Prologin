@@ -1,0 +1,23 @@
+from random import randint
+from new_version import *
+from non_optimal import *
+
+N = 1000000
+K = N//2
+i = 0
+while (i < N):
+    i += 1
+    bars = [randint(0, 100000000) for i in range(0, N)]
+    cache = {}
+    suboptimal = min_dizziness_suboptimal(N, K, bars)
+    optimal = min_dizziness(N, K, bars)
+    if True or optimal != suboptimal:
+        print(N)
+        print(K)
+        print(' '.join(list(map(str, bars))))
+        print("Epected : " + str(suboptimal))
+        print("Got : " + str(optimal))
+        print("Iterated " + str(i)+ " times")
+        break
+
+
